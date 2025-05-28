@@ -1,0 +1,8 @@
+if True:
+    print("hola")
+numero=0
+while numero<255:
+    print ("ingrese un numero")
+    numero=int(input(";"))
+    numeroDoble=numero*2
+    print(numeroDoble, end=",")
