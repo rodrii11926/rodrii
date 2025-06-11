@@ -1,0 +1,17 @@
+from datetime import datetime, date 
+objeto = {
+    "nombre": "Rodri"
+    "edad": 17,
+    "ciudad": "buenos aires",
+
+}
+ejson
+objeto["cumple"]=date(2007,8,20)
+hoy = date . today()
+objeto["edad"] = hoy.year - objeto["cumple"].year
+print("hola",objeto["nombre"])
+
+def cumpleHoy (fechaDeHoy,fechaDeNacimiento):
+    mismoMes = fechaDeHoy . month == fechaDeNacimiento  month
+    mismoDia = fechaDeHoy . day == fechaDeNacimiento . day
+    return mismoMes and mismoDia
