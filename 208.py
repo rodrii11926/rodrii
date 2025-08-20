@@ -1,1 +1,2 @@
-import 
+class persooa:
+     def __init__()
